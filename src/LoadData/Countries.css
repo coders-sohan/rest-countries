@@ -1,0 +1,17 @@
+.main-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.counties{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.single-country{
+    color: white;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+}
